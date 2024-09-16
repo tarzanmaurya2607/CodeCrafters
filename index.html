@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCrafters</title>
+    <style>
+        body {
+            font-family:Tekton Pro;
+            margin: 0;
+            padding: 10;
+            color: #333;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: right;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .contact {
+            margin-bottom: 20px;
+        }
+        .services h2, .contact h2 {
+            margin-top: 0;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+        }
+        .contact button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #575757;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding:  0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;  
+    background-color: #e0e0e0; 
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #007BFF; 
+    margin: 20px;
+}
+
+
+.logo {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+    ;
+}
+button{font-family:Tekton Pro;}
+input{font-family:Tekton Pro;}
+textarea{font-family:Tekton Pro;}
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+<div class="logo-container">
+            <img src="C:\Users\Raj Maurya\Desktop\others\img\images.png" alt="Educational Logo" class="logo">
+  </div>      
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="home" class="hero">
+        <h1>Welcome to CodeCrafters</h1>
+        <p>Your success, our commitment.</p>
+    </div>
+
+    <div id="about" class="container">
+        <h2>About Us</h2>
+        <p>I am Raj Maurya. I am creator of this website.</p>
+    </div>
+
+    <div id="services" class="container services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>We will start our services soon.</li>
+            
+        </ul>
+    </div>
+
+    <div id="contact" class="container contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:rajurwants@gmail.com">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5"  placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+                                                                              
+    <footer>
+        <p>&copy; 2024 CodeCrafters. All rights reserved.</p>
+    </footer>
+</body>
+</html>
